@@ -1,15 +1,110 @@
 /* */
 
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 40px;
+	font-family: Georgia, Times, serif;
+	color: #353535;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 50px;
+	margin: 10px;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	text-align: center;
+}
+
+p {
+	font-family: Georgia, Times, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+	color: red;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+form {
+	text-align: left;
+	width: 300px;
+	margin: 20px auto 0;
+}
+
+form label {
+	display: block;
+	width: 290px;
+	padding: 5px;
+	margin: 10px 0 0;
+	background: #000;
+	color: #fff;
+	border: none;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+form input {
+	display: block;
+	width: 285px;
+	padding: 5px;
+	margin: 10px 0 0;
+	background: #fff;
+	color: #000;
+	border: none;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+form input[type="submit"] {
+	background: #000;
+	color: #fff;
+	cursor: pointer;
+	width: 300px;
+}
+
+#container {
+	text-align: center;
+	background: url("images/money.jpg") top center repeat-y;
+}
+
+#header {
+	background: url("images/transparent_white.png");
+	margin: 10px auto;
+	padding: 10px;
+	border: solid 2px black;
+	text-align: center;
+	width: 600px;
+}
+
 #table {
 	display: table;
 	margin: 20px auto;
+	font-size: 14px;
+	font-style: italic;
+	border: none;
+	background: url("images/transparent_white.png");
+}
+
+#footer {
+	
+	background: white;
 }
 
 .column {
 	display: table-row;
 	width: 80px;
 	text-align: center;
-	padding: 10px
+	padding: 5px;
+	margin: 10px;
 }
 
 .row {
@@ -20,5 +115,9 @@
 }
 
 #line {
-	border: solid 1px black;
+	border: none;
+}
+
+#column-1 {
+	background-color: #e1e1e1;
 }
